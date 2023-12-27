@@ -20,6 +20,7 @@ function HomePage() {
         }).then(()=>{
             setInput("");
             scrollTOBottom();
+            scrollTOBottom();
         })
         .catch((err)=> alert(err.message));
     }
